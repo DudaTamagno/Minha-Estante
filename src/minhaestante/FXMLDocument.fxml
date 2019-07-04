@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="381.0" prefWidth="536.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="minhaestante.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="220.0" layoutY="296.0" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="84.0" text="Adicionar" />
+        <Label fx:id="label" layoutX="67.0" layoutY="130.0" minHeight="16" minWidth="69" prefHeight="17.0" prefWidth="213.0" />
+      <Text layoutX="67.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Livro " wrappingWidth="103.298828125" />
+      <TextField layoutX="67.0" layoutY="135.0" />
+      <Text layoutX="216.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MINHA ESTANTE" wrappingWidth="103.298828125" />
+      <Text layoutX="67.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Autor" wrappingWidth="103.298828125" />
+      <TextField layoutX="67.0" layoutY="212.0" />
+      <RadioButton layoutX="304.0" layoutY="122.0" mnemonicParsing="false" text="Lido" />
+      <RadioButton layoutX="304.0" layoutY="152.0" mnemonicParsing="false" text="Lendo" />
+      <RadioButton layoutX="304.0" layoutY="182.0" mnemonicParsing="false" text="Relendo" />
+    </children>
+   <padding>
+      <Insets top="5.0" />
+   </padding>
+</AnchorPane>
